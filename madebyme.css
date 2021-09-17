@@ -82,7 +82,7 @@ section video{
 } */
 .outvideo{
     margin: 4vw 2vw;
-    height: 20vw;
+    height: 50vh;
     border: .4vh solid black;
 }
 .img-responsive{
@@ -132,13 +132,13 @@ iframe{
     padding: 1.25vh;
     border-radius: .5vw;
 }
-.ihandle-color{
+/* .ihandle-color{
     color: white;
     background: linear-gradient(45DEG , #405DE6 , #5851db , #c13584, rgb(245, 86, 86) ,yellow, lightyellow);
-}
+} */
 .fhandle{
     color:#3b5998;
-    background-color: white;
+    /* background-color: white; */
     padding: 1.4vh .8vw;
     border-radius: .5vw;
 }
