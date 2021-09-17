@@ -67,7 +67,7 @@ section h2 span{
 .carousel-cell {
     padding-top: 40px;
     width: 80%;
-    height: auto;
+    height: 50vh;
     margin: .1vw;
     border-radius: 5vh;
 }
