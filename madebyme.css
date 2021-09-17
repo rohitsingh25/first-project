@@ -17,15 +17,15 @@ header{
 header h1 {
     padding-top: 2vw;
     text-align: center;
-    font-size: 4vw;
+    font-size: 10vh;
     color:black;
 }
-.banner{
+/* .banner{
     background-image: url(/img/b.gif) ;
     height: 14vw;
     min-height: 30px;
     background-size: 50%;
-}
+} */
 .flex-align-right{
     margin-left: auto;
 }
@@ -56,9 +56,9 @@ h2{
 }
 section{
     text-align: center;
-    height: 100%;
+    /* height: 100%; */
     /* padding-top:40px 0px ; */
-    min-height: 40vh;
+    /* min-height: 40vh; */
 }
 section h2 span{
     padding: 1vw 5vw;
@@ -76,9 +76,10 @@ section h2 span{
 .carousel-cell video{
       max-width: 35%;
 } */
+/* 
 section video{
     border: 2px solid black;
-}
+} */
 .outvideo{
     margin: 4vw 2vw;
     height: 20vw;
@@ -98,7 +99,7 @@ iframe{
     width: 30%;
 }
 .profileimg{
-    margin-top: 10vh;
+    margin-top: 5vh;
     width: 20%;
     border-radius: 50%;
 }
@@ -113,10 +114,10 @@ iframe{
 }
 .sm-handle a{
     background-color: rgb(125, 125, 125 , 50%);
-    padding: 2vh 2.2vw;
+    padding: 1vw 2.2vw;
     font-weight: 700;
     border-radius: 3vh;
-    margin: 2vh .2vw;
+    margin: 1vw .2vw;
     text-decoration: none;
     font-size: 2vw;
 }
@@ -125,7 +126,6 @@ iframe{
 }
 .sm-handle i{
     margin: .2vw;
-
 }
 .Ihandle{
     color:#dd2a7b;
@@ -163,14 +163,14 @@ h4 span{
 }
 @media screen and (max-width : 800px) {
     .img-responsive{
-        margin: 10vh .1vw 1vh .1vw;
+        margin: 5vh .1vw 1vh .1vw;
         width: 35%;
         height: 25vh;
     }
     iframe{
-        margin: 10vh .1vw 1vh;
+        margin: 5vh .1vw 1vh;
         width: 30%;
-        height: 40vh;
+        height: 25vh;
     }
 }
 @media screen and (max-width : 700px) {
